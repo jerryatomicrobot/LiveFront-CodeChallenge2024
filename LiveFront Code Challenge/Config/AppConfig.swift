@@ -15,7 +15,7 @@ enum AppConfig {
         case apiSecret = "API_SECRET"
     }
 
-    static var baseUri: String {
+    static var baseUrl: String {
         "https://\(apiBaseUrl)"
     }
 
