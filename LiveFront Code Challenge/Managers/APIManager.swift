@@ -52,6 +52,16 @@ class APIManager {
     enum URLParamKey: String {
         case apiKey = "api-key"
     }
+
+    enum BestSellerURLParamKey: String {
+        case list = "list"
+    }
+
+    enum BestSellerListType: String {
+        case hardcoverFiction = "hardcover-fiction"
+        case paperbackNonfiction = "paperback-nonfiction"
+    }
+
     // MARK: - Init Constants
 
     private let baseUrlString: String
@@ -66,7 +76,16 @@ class APIManager {
 
     // MARK: Request Methods
 
-    // TODO: Add endpoint request methods
+    func getBestSellerBooks() async throws -> Result<BestSellerResponse, URLError> {
+        let request = try self.get(
+            endpoint: .bestSellerList,
+            acceptValue: MIMEType.applicationJson.rawValue,
+            contentTypeValue: MIMEType.applicationJson.rawValue,
+            urlParameters: [BestSellerURLParamKey.list.rawValue:BestSellerListType.hardcoverFiction.rawValue]
+        )
+
+        return await execute(request, expects: BestSellerResponse.self, decoder: jsonDecoder)
+    }
 
     // MARK: Utility Methods
 
