@@ -36,7 +36,9 @@ struct BestSellerBook: Codable {
         case bookDetails = "book_details"
     }
 
-    // mark: Computed Vars
+    // MARK: Computed Vars
+
+    var primaryBookDetails: BookDetails? { self.bookDetails.first }
 
     /// A date object that represents when this book became a best seller
     var bestSellersDate: Date? { self.getDateFromString(self.bestSellersDateString) }

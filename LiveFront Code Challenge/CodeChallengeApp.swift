@@ -25,26 +25,6 @@ final class AppDelegate: NSObject, UIApplicationDelegate {
     }
 }
 
-extension AppDelegate {
-    @MainActor fileprivate func prefetchBestSellerBooks() async -> [BestSellerBook] {
-        do {
-            let results = try await apiManager.getBestSellerBooks()
-
-            switch results {
-            case .success(let response):
-                return response.results
-            case .failure(let error):
-                print("Retrieve BestSellerBooks Error: \(error)")
-                return []
-            }
-        } catch {
-            print("Error prefetching BestSellerBooks data: \(String(describing: error))")
-
-            return []
-        }
-    }
-}
-
 @main
 struct CodeChallengeApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
@@ -53,12 +33,6 @@ struct CodeChallengeApp: App {
         WindowGroup {
             ContentView()
                 .environment(\.apiManager, delegate.apiManager)
-                .onAppear {
-                    Task {
-                        let books = await self.delegate.prefetchBestSellerBooks()
-                        print("Books:\n", books)
-                    }
-                }
         }
     }
 }
