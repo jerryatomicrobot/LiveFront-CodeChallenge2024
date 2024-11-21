@@ -29,9 +29,22 @@
 		C4199ED02CEBFBC300924CA4 /* LiveFront Code ChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LiveFront Code ChallengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		C40635DD2CEFC72B00DB1BC9 /* Exceptions for "LiveFront Code Challenge" folder in "LiveFront Code Challenge" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"LiveFront-Code-Challenge-Info.plist",
+			);
+			target = C4199EB52CEBFBC000924CA4 /* LiveFront Code Challenge */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		C4199EB82CEBFBC000924CA4 /* LiveFront Code Challenge */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C40635DD2CEFC72B00DB1BC9 /* Exceptions for "LiveFront Code Challenge" folder in "LiveFront Code Challenge" target */,
+			);
 			path = "LiveFront Code Challenge";
 			sourceTree = "<group>";
 		};
@@ -404,6 +417,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"LiveFront Code Challenge/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "LiveFront-Code-Challenge-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -434,6 +448,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"LiveFront Code Challenge/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "LiveFront-Code-Challenge-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
