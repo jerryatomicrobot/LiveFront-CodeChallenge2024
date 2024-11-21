@@ -1,0 +1,20 @@
+//
+//  Config.xcconfig
+//  LiveFront Code Challenge
+//
+//  Created by Jerry Baez on 11/18/24.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+// App Settings
+PRODUCT_NAME = Top10Books
+PRODUCT_BUNDLE_IDENTIFIER = com.jerrybaez.LiveFront-Code-Challenge
+PRODUCT_MODULE_NAME = LiveFront_Code_Challenge
+
+// User Defined
+API_BASE_URL = api.nytimes.com/svc/books/v3
+API_APP_ID = ff76114c-37ea-44a7-802e-e69e0bf2985e
+API_KEY = LZhEGDagM3JiaBjjucNapDRFTnfm5lYA
+API_SECRET = gGyrHHjcFo7yrEbI
