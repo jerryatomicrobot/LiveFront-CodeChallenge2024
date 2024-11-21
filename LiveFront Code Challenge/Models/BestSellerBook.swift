@@ -20,7 +20,7 @@ struct BestSellerBook: Codable {
     let rankLastWeek: Int
     let weeksOnList: Int
     let amazonProductUrlString: String
-    let bookDetail: BookDetails
+    let bookDetails: [BookDetails]
 
     // MARK: Enums
 
@@ -33,7 +33,7 @@ struct BestSellerBook: Codable {
         case rankLastWeek = "rank_last_week"
         case weeksOnList = "weeks_on_list"
         case amazonProductUrlString = "amazon_product_url"
-        case bookDetail = "book_details"
+        case bookDetails = "book_details"
     }
 
     // mark: Computed Vars

@@ -30,7 +30,7 @@ struct BookDetails: Codable {
         case description
         case contributor
         case author
-        case contributorNote
+        case contributorNote = "contributor_note"
         case price
         case ageGroup = "age_group"
         case publisher
