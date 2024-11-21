@@ -47,6 +47,11 @@ class APIManager {
         }
     }
 
+    // MARK: Global URL Param Keys
+
+    enum URLParamKey: String {
+        case apiKey = "api-key"
+    }
     // MARK: - Init Constants
 
     private let baseUrlString: String
@@ -73,15 +78,19 @@ class APIManager {
         urlParameters: [String:String] = [:]
     ) throws -> URLRequest {
 
-        guard let baseUrl = URL(string: baseUrlString),
+        guard let baseUrl = URL(string: baseUrlString + endpoint.urlPathString),
               var components = URLComponents(url: baseUrl, resolvingAgainstBaseURL: false)
         else {
             throw URLError(.badURL)
         }
 
-        components.queryItems = urlParameters.map { (key, value) in
+        var queryItems: [URLQueryItem] = urlParameters.map { (key, value) in
             URLQueryItem(name: key, value: value)
         }
+
+        queryItems.append(URLQueryItem(name: URLParamKey.apiKey.rawValue, value: apiKey))
+
+        components.queryItems = queryItems
 
         guard let url = components.url else {
             throw URLError(.badURL)
@@ -105,7 +114,7 @@ class APIManager {
         expects type: Response.Type,
         decoder: JSONDecoder
     ) async -> Result<Response, URLError> {
-        var requestCopy = request
+        let requestCopy = request
 
         let startMs = Date.now
 
