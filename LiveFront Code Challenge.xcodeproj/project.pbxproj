@@ -24,7 +24,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C4199EB62CEBFBC000924CA4 /* .app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = .app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4199EB62CEBFBC000924CA4 /* Top10Books.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Top10Books.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4199EC62CEBFBC300924CA4 /* LiveFront Code ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LiveFront Code ChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4199ED02CEBFBC300924CA4 /* LiveFront Code ChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LiveFront Code ChallengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -85,7 +85,7 @@
 		C4199EB72CEBFBC000924CA4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C4199EB62CEBFBC000924CA4 /* .app */,
+				C4199EB62CEBFBC000924CA4 /* Top10Books.app */,
 				C4199EC62CEBFBC300924CA4 /* LiveFront Code ChallengeTests.xctest */,
 				C4199ED02CEBFBC300924CA4 /* LiveFront Code ChallengeUITests.xctest */,
 			);
@@ -114,7 +114,7 @@
 			packageProductDependencies = (
 			);
 			productName = "LiveFront Code Challenge";
-			productReference = C4199EB62CEBFBC000924CA4 /* .app */;
+			productReference = C4199EB62CEBFBC000924CA4 /* Top10Books.app */;
 			productType = "com.apple.product-type.application";
 		};
 		C4199EC52CEBFBC300924CA4 /* LiveFront Code ChallengeTests */ = {
@@ -271,6 +271,8 @@
 /* Begin XCBuildConfiguration section */
 		C4199ED82CEBFBC300924CA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = C4199EB82CEBFBC000924CA4 /* LiveFront Code Challenge */;
+			baseConfigurationReferenceRelativePath = Config/Config.xcconfig;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -334,6 +336,8 @@
 		};
 		C4199ED92CEBFBC300924CA4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = C4199EB82CEBFBC000924CA4 /* LiveFront Code Challenge */;
+			baseConfigurationReferenceRelativePath = Config/Config.xcconfig;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -411,7 +415,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jerrybaez.LiveFront-Code-Challenge";
-				PRODUCT_NAME = "";
+				PRODUCT_NAME = "$(inherited)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -441,7 +445,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jerrybaez.LiveFront-Code-Challenge";
-				PRODUCT_NAME = "";
+				PRODUCT_NAME = "$(inherited)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
