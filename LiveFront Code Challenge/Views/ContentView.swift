@@ -20,10 +20,10 @@ struct ContentView: View {
     @Environment(\.apiManager) private var apiManager
 
     @State private var model: ContentViewModel
-    @State private var presentedBooks: [BestSellerBook] = []
+    @State private var selection: BestSellerBook?
 
     var body: some View {
-        NavigationStack(path: $presentedBooks) {
+        NavigationSplitView {
             if model.performingFetchBooks {
                 ProgressView()
             } else if model.books.isEmpty {
@@ -36,18 +36,26 @@ struct ContentView: View {
                 }
                 .padding()
             } else {
-                List {
-                    ForEach(model.books) {book in
-                        NavigationLink {
-                            DetailView(book: book)
-                        } label: {
-                            BookRow(book: book)
-                        }
+                List(model.books, selection: $selection) { book in
+                    NavigationLink(value: book) {
+                        BookRow(book: book)
                     }
                 }
                 .listStyle(.plain)
                 .navigationTitle("Top Selling Books")
                 .padding()
+            }
+        } detail: {
+            if model.performingFetchBooks {
+                ProgressView()
+            } else if model.books.isEmpty {
+                EmptyView()
+            } else {
+                if let book = selection {
+                    DetailView(book: book)
+                } else {
+                    Text("Please select a book")
+                }
             }
         }
         .onAppear {
