@@ -35,11 +35,6 @@ enum AppConfig {
         stringValue(forKey: .apiKey)
     }
 
-    /// API secret to use when connecting to the API
-    static var apiSecret: String {
-        stringValue(forKey: .apiSecret)
-    }
-
     // MARK: OpenLibrary.org Vars
 
     static var olAPIBaseUrl: String {
