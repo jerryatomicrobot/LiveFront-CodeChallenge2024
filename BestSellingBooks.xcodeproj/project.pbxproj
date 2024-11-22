@@ -18,19 +18,11 @@
 			remoteGlobalIDString = C40635FA2CF05A7100DB1BC9;
 			remoteInfo = BestSellingBooks;
 		};
-		C40636162CF05A7400DB1BC9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C40635F32CF05A7100DB1BC9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C40635FA2CF05A7100DB1BC9;
-			remoteInfo = BestSellingBooks;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		C40635FB2CF05A7100DB1BC9 /* BestSellingBooks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BestSellingBooks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C406360B2CF05A7400DB1BC9 /* BestSellingBooksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BestSellingBooksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C40636152CF05A7400DB1BC9 /* BestSellingBooksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BestSellingBooksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -57,11 +49,6 @@
 			path = BestSellingBooksTests;
 			sourceTree = "<group>";
 		};
-		C40636182CF05A7400DB1BC9 /* BestSellingBooksUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = BestSellingBooksUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,13 +67,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C40636122CF05A7400DB1BC9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -95,7 +75,6 @@
 			children = (
 				C40635FD2CF05A7100DB1BC9 /* BestSellingBooks */,
 				C406360E2CF05A7400DB1BC9 /* BestSellingBooksTests */,
-				C40636182CF05A7400DB1BC9 /* BestSellingBooksUITests */,
 				C40635FC2CF05A7100DB1BC9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -105,7 +84,6 @@
 			children = (
 				C40635FB2CF05A7100DB1BC9 /* BestSellingBooks.app */,
 				C406360B2CF05A7400DB1BC9 /* BestSellingBooksTests.xctest */,
-				C40636152CF05A7400DB1BC9 /* BestSellingBooksUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -159,29 +137,6 @@
 			productReference = C406360B2CF05A7400DB1BC9 /* BestSellingBooksTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C40636142CF05A7400DB1BC9 /* BestSellingBooksUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C40636252CF05A7400DB1BC9 /* Build configuration list for PBXNativeTarget "BestSellingBooksUITests" */;
-			buildPhases = (
-				C40636112CF05A7400DB1BC9 /* Sources */,
-				C40636122CF05A7400DB1BC9 /* Frameworks */,
-				C40636132CF05A7400DB1BC9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C40636172CF05A7400DB1BC9 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				C40636182CF05A7400DB1BC9 /* BestSellingBooksUITests */,
-			);
-			name = BestSellingBooksUITests;
-			packageProductDependencies = (
-			);
-			productName = BestSellingBooksUITests;
-			productReference = C40636152CF05A7400DB1BC9 /* BestSellingBooksUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -196,10 +151,6 @@
 						CreatedOnToolsVersion = 16.1;
 					};
 					C406360A2CF05A7400DB1BC9 = {
-						CreatedOnToolsVersion = 16.1;
-						TestTargetID = C40635FA2CF05A7100DB1BC9;
-					};
-					C40636142CF05A7400DB1BC9 = {
 						CreatedOnToolsVersion = 16.1;
 						TestTargetID = C40635FA2CF05A7100DB1BC9;
 					};
@@ -224,7 +175,6 @@
 			targets = (
 				C40635FA2CF05A7100DB1BC9 /* BestSellingBooks */,
 				C406360A2CF05A7400DB1BC9 /* BestSellingBooksTests */,
-				C40636142CF05A7400DB1BC9 /* BestSellingBooksUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -238,13 +188,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		C40636092CF05A7400DB1BC9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C40636132CF05A7400DB1BC9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -268,13 +211,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C40636112CF05A7400DB1BC9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -282,11 +218,6 @@
 			isa = PBXTargetDependency;
 			target = C40635FA2CF05A7100DB1BC9 /* BestSellingBooks */;
 			targetProxy = C406360C2CF05A7400DB1BC9 /* PBXContainerItemProxy */;
-		};
-		C40636172CF05A7400DB1BC9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C40635FA2CF05A7100DB1BC9 /* BestSellingBooks */;
-			targetProxy = C40636162CF05A7400DB1BC9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -518,40 +449,6 @@
 			};
 			name = Release;
 		};
-		C40636262CF05A7400DB1BC9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = U7Z8U2DQRD;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.atomicrobot.BestSellingBooksUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = BestSellingBooks;
-			};
-			name = Debug;
-		};
-		C40636272CF05A7400DB1BC9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = U7Z8U2DQRD;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.atomicrobot.BestSellingBooksUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = BestSellingBooks;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -578,15 +475,6 @@
 			buildConfigurations = (
 				C40636232CF05A7400DB1BC9 /* Debug */,
 				C40636242CF05A7400DB1BC9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C40636252CF05A7400DB1BC9 /* Build configuration list for PBXNativeTarget "BestSellingBooksUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C40636262CF05A7400DB1BC9 /* Debug */,
-				C40636272CF05A7400DB1BC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
