@@ -8,9 +8,11 @@
 import Foundation
 
 /// Represents a book item on the corresponding best seller list
-struct BestSellerBook: Codable {
+struct BestSellerBook: Codable, Identifiable, Hashable {
 
     // MARK: Constants
+
+    let id = UUID()
 
     let listName: String
     let displayName: String
@@ -20,7 +22,7 @@ struct BestSellerBook: Codable {
     let rankLastWeek: Int
     let weeksOnList: Int
     let amazonProductUrlString: String
-    let bookDetails: [BookDetails]
+    let details: [BookDetails]
 
     // MARK: Enums
 
@@ -33,12 +35,12 @@ struct BestSellerBook: Codable {
         case rankLastWeek = "rank_last_week"
         case weeksOnList = "weeks_on_list"
         case amazonProductUrlString = "amazon_product_url"
-        case bookDetails = "book_details"
+        case details = "book_details"
     }
 
     // MARK: Computed Vars
 
-    var primaryBookDetails: BookDetails? { self.bookDetails.first }
+    var primaryDetails: BookDetails? { self.details.first }
 
     /// A date object that represents when this book became a best seller
     var bestSellersDate: Date? { self.getDateFromString(self.bestSellersDateString) }
