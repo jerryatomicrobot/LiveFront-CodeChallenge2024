@@ -8,7 +8,7 @@
 import Foundation
 
 /// Represents the details of a book in a best seller list
-struct BookDetails: Codable {
+struct BookDetails: Codable, Hashable {
 
     // MARK: Constants
 
