@@ -10,5 +10,7 @@
 	<string>$(API_KEY)</string>
 	<key>API_SECRET</key>
 	<string>$(API_SECRET)</string>
+	<key>OL_API_BASE_URL</key>
+	<string>$(OL_API_BASE_URL)</string>
 </dict>
 </plist>

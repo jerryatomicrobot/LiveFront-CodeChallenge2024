@@ -8,12 +8,18 @@
 import Foundation
 
 enum AppConfig {
+
+    // MARK: Enums
+
     enum ConfigKey: String {
         case apiBaseUrl = "API_BASE_URL"
         case apiKey = "API_KEY"
         case apiAppId = "API_APP_ID"
         case apiSecret = "API_SECRET"
+        case olAPIBaseUrl = "OL_API_BASE_URL"
     }
+
+    // MARK: NY Times API Vars
 
     static var baseUrl: String {
         "https://\(apiBaseUrl)"
@@ -34,7 +40,19 @@ enum AppConfig {
         stringValue(forKey: .apiSecret)
     }
 
-    // MARK: Private vars
+    // MARK: OpenLibrary.org Vars
+
+    static var olAPIBaseUrl: String {
+        stringValue(forKey: .olAPIBaseUrl)
+    }
+
+    // MARK: Private Vars
+
+    private static var apiBaseUrl: String {
+        stringValue(forKey: .apiBaseUrl)
+    }
+
+    // MARK: Utility Static Methods
 
     /// Returns a string value from our config file
     /// - Parameter key: The key we want to read
@@ -45,9 +63,5 @@ enum AppConfig {
             return ""
         }
         return value
-    }
-
-    private static var apiBaseUrl: String {
-        stringValue(forKey: .apiBaseUrl)
     }
 }

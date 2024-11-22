@@ -13,7 +13,11 @@ final class AppDelegate: NSObject, UIApplicationDelegate {
 
     override init() {
 
-        self.apiManager = APIManager(baseUrlString: AppConfig.baseUrl, apiKey: AppConfig.apiKey)
+        self.apiManager = APIManager(
+            baseUrlString: AppConfig.baseUrl,
+            apiKey: AppConfig.apiKey,
+            olApiBaseUrlString: AppConfig.olAPIBaseUrl
+        )
     }
 
     func application(
@@ -39,7 +43,7 @@ struct CodeChallengeApp: App {
 
 struct APIManagerKey: EnvironmentKey {
     static var defaultValue: APIManager {
-        APIManager(baseUrlString: "", apiKey: "")
+        APIManager(baseUrlString: "", apiKey: "", olApiBaseUrlString: "")
     }
 }
 

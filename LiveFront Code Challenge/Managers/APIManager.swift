@@ -34,20 +34,26 @@ class APIManager {
         return decoder
     }()
 
-    // MARK: - Endpoints
+    // MARK: - NY Times Endpoints
 
     enum EndpointType {
         case bestSellerList
+        case thumbnailCover
+        case bookCover
 
         var urlPathString: String {
             switch self {
             case .bestSellerList:
                 "/lists.json"
+            case .thumbnailCover:
+                "/isbn/%@-S.jpg"
+            case .bookCover:
+                "/isbn/%@-M.jpg"
             }
         }
     }
 
-    // MARK: Global URL Param Keys
+    // MARK: NY Times URL Param Keys
 
     enum URLParamKey: String {
         case apiKey = "api-key"
@@ -64,17 +70,19 @@ class APIManager {
 
     // MARK: - Init Constants
 
-    private let baseUrlString: String
-    private let apiKey: String
+    private let nytApiBaseUrlString: String
+    private let nytKey: String
+    private let olApiBaseUrlString: String
 
     // MARK: - Inits
 
-    init(baseUrlString: String, apiKey: String) {
-        self.baseUrlString = baseUrlString
-        self.apiKey = apiKey
+    init(baseUrlString: String, apiKey: String, olApiBaseUrlString: String) {
+        self.nytApiBaseUrlString = baseUrlString
+        self.nytKey = apiKey
+        self.olApiBaseUrlString = olApiBaseUrlString
     }
 
-    // MARK: Request Methods
+    // MARK: NY Times Request Methods
 
     func getBestSellerBooks() async throws -> Result<BestSellerResponse, URLError> {
         let request = try self.get(
@@ -87,6 +95,20 @@ class APIManager {
         return await execute(request, expects: BestSellerResponse.self, decoder: jsonDecoder)
     }
 
+    // MARK: OpenLibrary.org Utility Methods
+
+    func getThumbnailImageUrl(isbn: String) -> URL? {
+        let urlString = String(format: "https://" + olApiBaseUrlString + EndpointType.thumbnailCover.urlPathString, isbn)
+
+        return URL(string: urlString)
+    }
+
+    func getBookCoverImageUrl(isbn: String) -> URL? {
+        let urlString = String(format: "https://" + olApiBaseUrlString + EndpointType.bookCover.urlPathString, isbn)
+
+        return URL(string: urlString)
+    }
+
     // MARK: Utility Methods
 
     private func get(
@@ -97,7 +119,7 @@ class APIManager {
         urlParameters: [String:String] = [:]
     ) throws -> URLRequest {
 
-        guard let baseUrl = URL(string: baseUrlString + endpoint.urlPathString),
+        guard let baseUrl = URL(string: nytApiBaseUrlString + endpoint.urlPathString),
               var components = URLComponents(url: baseUrl, resolvingAgainstBaseURL: false)
         else {
             throw URLError(.badURL)
@@ -107,7 +129,7 @@ class APIManager {
             URLQueryItem(name: key, value: value)
         }
 
-        queryItems.append(URLQueryItem(name: URLParamKey.apiKey.rawValue, value: apiKey))
+        queryItems.append(URLQueryItem(name: URLParamKey.apiKey.rawValue, value: nytKey))
 
         components.queryItems = queryItems
 
