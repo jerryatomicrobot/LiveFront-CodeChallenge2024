@@ -38,16 +38,16 @@ struct ContentView: View {
             } else {
                 List {
                     ForEach(model.books) {book in
-//                        BookRow(bookDetails: book.primaryDetails)
-                        NavigationLink(book.primaryDetails?.title ?? "", value: book)
+                        NavigationLink {
+                            DetailView(book: book)
+                        } label: {
+                            BookRow(book: book)
+                        }
                     }
                 }
                 .listStyle(.plain)
                 .navigationTitle("Top Selling Books")
                 .padding()
-                .navigationDestination(for: BestSellerBook.self) { book in
-                    
-                }
             }
         }
         .onAppear {
@@ -66,7 +66,7 @@ struct ContentView: View {
 
                 switch results {
                 case .success(let response):
-                    model.books = response.results
+                    model.books = response.results.sorted(by: { $0.rank < $1.rank })
                 case .failure(let error):
                     print("Retrieve BestSellerBooks Error: \(error)")
                 }

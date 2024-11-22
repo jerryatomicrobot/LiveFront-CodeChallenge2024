@@ -38,3 +38,19 @@ struct BookDetails: Codable, Hashable {
         case primaryIsbn10 = "primary_isbn10"
     }
 }
+
+// MARK: Extension
+
+extension BookDetails {
+    static var previewBook = BookDetails(
+        title: "Test Book",
+        description: "This is just a generic description.",
+        contributor: "Joe Doe",
+        author: "John Smith",
+        contributorNote: "Just some testing notes.",
+        price: "9.99",
+        ageGroup: "",
+        publisher: "Testing Publisher",
+        primaryIsbn13: "999999999",
+        primaryIsbn10: "888888888")
+}

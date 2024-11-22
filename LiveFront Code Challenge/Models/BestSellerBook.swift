@@ -60,3 +60,19 @@ struct BestSellerBook: Codable, Identifiable, Hashable {
         return dateFormatter.date(from: dateString)
     }
 }
+
+// MARK: Extension
+
+extension BestSellerBook {
+    static var previewBook = BestSellerBook(
+        listName: "Test List",
+        displayName: "Test List",
+        bestSellersDateString: "2024-11-21",
+        publishedDateString: "2024-11-21",
+        rank: 1,
+        rankLastWeek: 1,
+        weeksOnList: 2,
+        amazonProductUrlString: "https://a.co/d/ezLIcvp",
+        details: [BookDetails.previewBook]
+    )
+}
