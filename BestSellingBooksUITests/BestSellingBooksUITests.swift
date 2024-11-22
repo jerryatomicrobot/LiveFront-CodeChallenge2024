@@ -1,13 +1,13 @@
 //
-//  LiveFront_Code_ChallengeUITests.swift
-//  LiveFront Code ChallengeUITests
+//  BestSellingBooksUITests.swift
+//  BestSellingBooksUITests
 //
-//  Created by Jerry Baez on 11/18/24.
+//  Created by Jerry Baez on 11/22/24.
 //
 
 import XCTest
 
-final class LiveFront_Code_ChallengeUITests: XCTestCase {
+final class BestSellingBooksUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

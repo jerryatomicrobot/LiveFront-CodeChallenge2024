@@ -1,0 +1,577 @@
+{
+	"status": "OK",
+	"copyright": "Copyright (c) 2024 The New York Times Company.  All Rights Reserved.",
+	"num_results": 15,
+	"last_modified": "2024-11-20T23:05:03-05:00",
+	"results": [{
+		"list_name": "Hardcover Fiction",
+		"display_name": "Hardcover Fiction",
+		"bestsellers_date": "2024-11-16",
+		"published_date": "2024-12-01",
+		"rank": 1,
+		"rank_last_week": 0,
+		"weeks_on_list": 1,
+		"asterisk": 0,
+		"dagger": 0,
+		"amazon_product_url": "https:\/\/www.amazon.com\/dp\/1538757907?tag=thenewyorktim-20",
+		"isbns": [{
+			"isbn10": "1538757907",
+			"isbn13": "9781538757901"
+		}, {
+			"isbn10": "1538757931",
+			"isbn13": "9781538757932"
+		}],
+		"book_details": [{
+			"title": "TO DIE FOR",
+			"description": "The third book in the 6:20 Man series. Devine digs into the deaths of an orphan\u2019s parents and uncovers a large conspiracy.",
+			"contributor": "by David Baldacci",
+			"author": "David Baldacci",
+			"contributor_note": "",
+			"price": "0.00",
+			"age_group": "",
+			"publisher": "Grand Central",
+			"primary_isbn13": "9781538757901",
+			"primary_isbn10": "1538757907"
+		}],
+		"reviews": [{
+			"book_review_link": "",
+			"first_chapter_link": "",
+			"sunday_review_link": "",
+			"article_chapter_link": ""
+		}]
+	}, {
+		"list_name": "Hardcover Fiction",
+		"display_name": "Hardcover Fiction",
+		"bestsellers_date": "2024-11-16",
+		"published_date": "2024-12-01",
+		"rank": 2,
+		"rank_last_week": 2,
+		"weeks_on_list": 41,
+		"asterisk": 0,
+		"dagger": 0,
+		"amazon_product_url": "https:\/\/www.amazon.com\/dp\/1250178630?tag=thenewyorktim-20",
+		"isbns": [{
+			"isbn10": "1250178630",
+			"isbn13": "9781250178633"
+		}, {
+			"isbn10": "1250178657",
+			"isbn13": "9781250178657"
+		}],
+		"book_details": [{
+			"title": "THE WOMEN",
+			"description": "In 1965, a nursing student follows her brother to serve during the Vietnam War and returns to a divided America.",
+			"contributor": "by Kristin Hannah",
+			"author": "Kristin Hannah",
+			"contributor_note": "",
+			"price": "0.00",
+			"age_group": "",
+			"publisher": "St. Martin's",
+			"primary_isbn13": "9781250178633",
+			"primary_isbn10": "1250178630"
+		}],
+		"reviews": [{
+			"book_review_link": "",
+			"first_chapter_link": "",
+			"sunday_review_link": "",
+			"article_chapter_link": ""
+		}]
+	}, {
+		"list_name": "Hardcover Fiction",
+		"display_name": "Hardcover Fiction",
+		"bestsellers_date": "2024-11-16",
+		"published_date": "2024-12-01",
+		"rank": 3,
+		"rank_last_week": 6,
+		"weeks_on_list": 54,
+		"asterisk": 0,
+		"dagger": 0,
+		"amazon_product_url": "https:\/\/www.amazon.com\/dp\/1649374178?tag=thenewyorktim-20",
+		"isbns": [{
+			"isbn10": "1649374178",
+			"isbn13": "9781649374172"
+		}, {
+			"isbn10": "1705085083",
+			"isbn13": "9781705085080"
+		}],
+		"book_details": [{
+			"title": "IRON FLAME",
+			"description": "The second book in the Empyrean series. Violet Sorrengail\u2019s next round of training under the new vice commandant might require her to betray the man she loves.",
+			"contributor": "by Rebecca Yarros",
+			"author": "Rebecca Yarros",
+			"contributor_note": "",
+			"price": "0.00",
+			"age_group": "",
+			"publisher": "Red Tower",
+			"primary_isbn13": "9781649374172",
+			"primary_isbn10": "1649374178"
+		}],
+		"reviews": [{
+			"book_review_link": "",
+			"first_chapter_link": "",
+			"sunday_review_link": "",
+			"article_chapter_link": ""
+		}]
+	}, {
+		"list_name": "Hardcover Fiction",
+		"display_name": "Hardcover Fiction",
+		"bestsellers_date": "2024-11-16",
+		"published_date": "2024-12-01",
+		"rank": 4,
+		"rank_last_week": 14,
+		"weeks_on_list": 20,
+		"asterisk": 0,
+		"dagger": 0,
+		"amazon_product_url": "https:\/\/www.amazon.com\/dp\/0385550367?tag=thenewyorktim-20",
+		"isbns": [{
+			"isbn10": "0385550367",
+			"isbn13": "9780385550369"
+		}, {
+			"isbn10": "0385550375",
+			"isbn13": "9780385550376"
+		}],
+		"book_details": [{
+			"title": "JAMES",
+			"description": "A reimagining of \u201cAdventures of Huckleberry Finn\u201d shines a different light on Mark Twain's classic, revealing new facets of the character of Jim.",
+			"contributor": "by Percival Everett",
+			"author": "Percival Everett",
+			"contributor_note": "",
+			"price": "0.00",
+			"age_group": "",
+			"publisher": "Doubleday",
+			"primary_isbn13": "9780385550369",
+			"primary_isbn10": "0385550367"
+		}],
+		"reviews": [{
+			"book_review_link": "",
+			"first_chapter_link": "",
+			"sunday_review_link": "",
+			"article_chapter_link": ""
+		}]
+	}, {
+		"list_name": "Hardcover Fiction",
+		"display_name": "Hardcover Fiction",
+		"bestsellers_date": "2024-11-16",
+		"published_date": "2024-12-01",
+		"rank": 5,
+		"rank_last_week": 0,
+		"weeks_on_list": 1,
+		"asterisk": 0,
+		"dagger": 0,
+		"amazon_product_url": "https:\/\/www.amazon.com\/dp\/1250331978?tag=thenewyorktim-20",
+		"isbns": [{
+			"isbn10": "1250331978",
+			"isbn13": "9781250331977"
+		}, {
+			"isbn10": "1250367573",
+			"isbn13": "9781250367570"
+		}],
+		"book_details": [{
+			"title": "THE COURTING OF BRISTOL KEATS",
+			"description": "After a tragedy, Bristol travels to a dangerous world to try to save her father.",
+			"contributor": "by Mary E. Pearson",
+			"author": "Mary E. Pearson",
+			"contributor_note": "",
+			"price": "0.00",
+			"age_group": "",
+			"publisher": "Flatiron",
+			"primary_isbn13": "9781250331977",
+			"primary_isbn10": "1250331978"
+		}],
+		"reviews": [{
+			"book_review_link": "",
+			"first_chapter_link": "",
+			"sunday_review_link": "",
+			"article_chapter_link": ""
+		}]
+	}, {
+		"list_name": "Hardcover Fiction",
+		"display_name": "Hardcover Fiction",
+		"bestsellers_date": "2024-11-16",
+		"published_date": "2024-12-01",
+		"rank": 6,
+		"rank_last_week": 4,
+		"weeks_on_list": 8,
+		"asterisk": 0,
+		"dagger": 0,
+		"amazon_product_url": "https:\/\/www.amazon.com\/dp\/0593449592?tag=thenewyorktim-20",
+		"isbns": [{
+			"isbn10": "0593449592",
+			"isbn13": "9780593449592"
+		}, {
+			"isbn10": "0593449606",
+			"isbn13": "9780593449608"
+		}, {
+			"isbn10": "0593912616",
+			"isbn13": "9780593912614"
+		}, {
+			"isbn10": "0593912608",
+			"isbn13": "9780593912607"
+		}],
+		"book_details": [{
+			"title": "COUNTING MIRACLES",
+			"description": "A man in search of the father he never knew encounters a single mom and rumors circulate of the nearby appearance of a white deer.",
+			"contributor": "by Nicholas Sparks",
+			"author": "Nicholas Sparks",
+			"contributor_note": "",
+			"price": "0.00",
+			"age_group": "",
+			"publisher": "Random House",
+			"primary_isbn13": "9780593449592",
+			"primary_isbn10": "0593449592"
+		}],
+		"reviews": [{
+			"book_review_link": "",
+			"first_chapter_link": "",
+			"sunday_review_link": "",
+			"article_chapter_link": ""
+		}]
+	}, {
+		"list_name": "Hardcover Fiction",
+		"display_name": "Hardcover Fiction",
+		"bestsellers_date": "2024-11-16",
+		"published_date": "2024-12-01",
+		"rank": 7,
+		"rank_last_week": 3,
+		"weeks_on_list": 4,
+		"asterisk": 0,
+		"dagger": 0,
+		"amazon_product_url": "https:\/\/www.amazon.com\/dp\/0593725808?tag=thenewyorktim-20",
+		"isbns": [{
+			"isbn10": "0593725808",
+			"isbn13": "9780593725801"
+		}, {
+			"isbn10": "0593725816",
+			"isbn13": "9780593725818"
+		}, {
+			"isbn10": "0593916476",
+			"isbn13": "9780593916476"
+		}, {
+			"isbn10": "0593916468",
+			"isbn13": "9780593916469"
+		}],
+		"book_details": [{
+			"title": "IN TOO DEEP",
+			"description": "The 29th book in the Jack Reacher series. Reacher wakes up in a precarious position with no memory of how he got there.",
+			"contributor": "by Lee Child and Andrew Child",
+			"author": "Lee Child and Andrew Child",
+			"contributor_note": "",
+			"price": "0.00",
+			"age_group": "",
+			"publisher": "Delacorte",
+			"primary_isbn13": "9780593725801",
+			"primary_isbn10": "0593725808"
+		}],
+		"reviews": [{
+			"book_review_link": "",
+			"first_chapter_link": "",
+			"sunday_review_link": "",
+			"article_chapter_link": ""
+		}]
+	}, {
+		"list_name": "Hardcover Fiction",
+		"display_name": "Hardcover Fiction",
+		"bestsellers_date": "2024-11-16",
+		"published_date": "2024-12-01",
+		"rank": 8,
+		"rank_last_week": 5,
+		"weeks_on_list": 5,
+		"asterisk": 0,
+		"dagger": 0,
+		"amazon_product_url": "https:\/\/www.amazon.com\/dp\/031656379X?tag=thenewyorktim-20",
+		"isbns": [{
+			"isbn10": "031656379X",
+			"isbn13": "9780316563796"
+		}, {
+			"isbn10": "0316580791",
+			"isbn13": "9780316580793"
+		}, {
+			"isbn10": "0316563811",
+			"isbn13": "9780316563819"
+		}, {
+			"isbn10": "1668640082",
+			"isbn13": "9781668640081"
+		}],
+		"book_details": [{
+			"title": "THE WAITING",
+			"description": "The sixth book in the Ballard and Bosch series. Bosch\u2019s daughter, Maddie, becomes a new volunteer on the cold case unit.",
+			"contributor": "by Michael Connelly",
+			"author": "Michael Connelly",
+			"contributor_note": "",
+			"price": "0.00",
+			"age_group": "",
+			"publisher": "Little, Brown",
+			"primary_isbn13": "9780316563796",
+			"primary_isbn10": "031656379X"
+		}],
+		"reviews": [{
+			"book_review_link": "",
+			"first_chapter_link": "",
+			"sunday_review_link": "",
+			"article_chapter_link": ""
+		}]
+	}, {
+		"list_name": "Hardcover Fiction",
+		"display_name": "Hardcover Fiction",
+		"bestsellers_date": "2024-11-16",
+		"published_date": "2024-12-01",
+		"rank": 9,
+		"rank_last_week": 0,
+		"weeks_on_list": 1,
+		"asterisk": 0,
+		"dagger": 0,
+		"amazon_product_url": "https:\/\/www.amazon.com\/dp\/1464230323?tag=thenewyorktim-20",
+		"isbns": [{
+			"isbn10": "1464230323",
+			"isbn13": "9781464230325"
+		}],
+		"book_details": [{
+			"title": "COURT OF THE VAMPIRE QUEEN",
+			"description": "Mina encounters three vampire men and weighs whether to face down her father.",
+			"contributor": "by Katee Robert",
+			"author": "Katee Robert",
+			"contributor_note": "",
+			"price": "0.00",
+			"age_group": "",
+			"publisher": "Sourcebooks Casablanca",
+			"primary_isbn13": "9781464230325",
+			"primary_isbn10": "1464230323"
+		}],
+		"reviews": [{
+			"book_review_link": "",
+			"first_chapter_link": "",
+			"sunday_review_link": "",
+			"article_chapter_link": ""
+		}]
+	}, {
+		"list_name": "Hardcover Fiction",
+		"display_name": "Hardcover Fiction",
+		"bestsellers_date": "2024-11-16",
+		"published_date": "2024-12-01",
+		"rank": 10,
+		"rank_last_week": 1,
+		"weeks_on_list": 3,
+		"asterisk": 0,
+		"dagger": 0,
+		"amazon_product_url": "https:\/\/www.amazon.com\/dp\/1250328136?tag=thenewyorktim-20",
+		"isbns": [{
+			"isbn10": "1250328136",
+			"isbn13": "9781250328137"
+		}, {
+			"isbn10": "1250328144",
+			"isbn13": "9781250328144"
+		}],
+		"book_details": [{
+			"title": "THE GREY WOLF",
+			"description": "The 19th book in the Chief Inspector Gamache series. Shifting alliances complicate the frenzied pursuit of a sinister threat.",
+			"contributor": "by Louise Penny",
+			"author": "Louise Penny",
+			"contributor_note": "",
+			"price": "0.00",
+			"age_group": "",
+			"publisher": "Minotaur",
+			"primary_isbn13": "9781250328137",
+			"primary_isbn10": "1250328136"
+		}],
+		"reviews": [{
+			"book_review_link": "",
+			"first_chapter_link": "",
+			"sunday_review_link": "",
+			"article_chapter_link": ""
+		}]
+	}, {
+		"list_name": "Hardcover Fiction",
+		"display_name": "Hardcover Fiction",
+		"bestsellers_date": "2024-11-16",
+		"published_date": "2024-12-01",
+		"rank": 11,
+		"rank_last_week": 12,
+		"weeks_on_list": 20,
+		"asterisk": 0,
+		"dagger": 0,
+		"amazon_product_url": "https:\/\/www.amazon.com\/dp\/0593418913?tag=thenewyorktim-20",
+		"isbns": [{
+			"isbn10": "0593418913",
+			"isbn13": "9780593418918"
+		}, {
+			"isbn10": "059341893X",
+			"isbn13": "9780593418932"
+		}, {
+			"isbn10": "0593867793",
+			"isbn13": "9780593867792"
+		}],
+		"book_details": [{
+			"title": "THE GOD OF THE WOODS",
+			"description": "When a 13-year-old girl disappears from an Adirondack summer camp in 1975, secrets kept by the Van Laar family emerge.",
+			"contributor": "by Liz Moore",
+			"author": "Liz Moore",
+			"contributor_note": "",
+			"price": "0.00",
+			"age_group": "",
+			"publisher": "Riverhead",
+			"primary_isbn13": "9780593418918",
+			"primary_isbn10": "0593418913"
+		}],
+		"reviews": [{
+			"book_review_link": "",
+			"first_chapter_link": "",
+			"sunday_review_link": "",
+			"article_chapter_link": ""
+		}]
+	}, {
+		"list_name": "Hardcover Fiction",
+		"display_name": "Hardcover Fiction",
+		"bestsellers_date": "2024-11-16",
+		"published_date": "2024-12-01",
+		"rank": 12,
+		"rank_last_week": 0,
+		"weeks_on_list": 1,
+		"asterisk": 0,
+		"dagger": 0,
+		"amazon_product_url": "https:\/\/www.amazon.com\/dp\/1638931739?tag=thenewyorktim-20",
+		"isbns": [{
+			"isbn10": "1638931739",
+			"isbn13": "9781638931737"
+		}, {
+			"isbn10": "1638932352",
+			"isbn13": "9781638932352"
+		}],
+		"book_details": [{
+			"title": "BUTCHER & BLACKBIRD",
+			"description": "A friendship between the rival murderers Sloane and Rowan develops into something more.",
+			"contributor": "by Brynne Weaver",
+			"author": "Brynne Weaver",
+			"contributor_note": "",
+			"price": "0.00",
+			"age_group": "",
+			"publisher": "Slowburn",
+			"primary_isbn13": "9781638932352",
+			"primary_isbn10": "1638932352"
+		}],
+		"reviews": [{
+			"book_review_link": "",
+			"first_chapter_link": "",
+			"sunday_review_link": "",
+			"article_chapter_link": ""
+		}]
+	}, {
+		"list_name": "Hardcover Fiction",
+		"display_name": "Hardcover Fiction",
+		"bestsellers_date": "2024-11-16",
+		"published_date": "2024-12-01",
+		"rank": 13,
+		"rank_last_week": 0,
+		"weeks_on_list": 75,
+		"asterisk": 0,
+		"dagger": 0,
+		"amazon_product_url": "https:\/\/www.amazon.com\/dp\/1649374046?tag=thenewyorktim-20",
+		"isbns": [{
+			"isbn10": "1649374046",
+			"isbn13": "9781649374042"
+		}, {
+			"isbn10": "1649374089",
+			"isbn13": "9781649374080"
+		}, {
+			"isbn10": "1705085059",
+			"isbn13": "9781705085059"
+		}, {
+			"isbn10": "1705085032",
+			"isbn13": "9781705085035"
+		}, {
+			"isbn10": "1649376162",
+			"isbn13": "9781649376169"
+		}, {
+			"isbn10": "1649377371",
+			"isbn13": "9781649377371"
+		}],
+		"book_details": [{
+			"title": "FOURTH WING",
+			"description": "Violet Sorrengail is urged by the commanding general, who also is her mother, to become a candidate for the elite dragon riders.",
+			"contributor": "by Rebecca Yarros",
+			"author": "Rebecca Yarros",
+			"contributor_note": "",
+			"price": "0.00",
+			"age_group": "",
+			"publisher": "Red Tower",
+			"primary_isbn13": "9781649374042",
+			"primary_isbn10": "1649374046"
+		}],
+		"reviews": [{
+			"book_review_link": "",
+			"first_chapter_link": "",
+			"sunday_review_link": "",
+			"article_chapter_link": ""
+		}]
+	}, {
+		"list_name": "Hardcover Fiction",
+		"display_name": "Hardcover Fiction",
+		"bestsellers_date": "2024-11-16",
+		"published_date": "2024-12-01",
+		"rank": 14,
+		"rank_last_week": 11,
+		"weeks_on_list": 8,
+		"asterisk": 0,
+		"dagger": 0,
+		"amazon_product_url": "https:\/\/www.amazon.com\/dp\/0374602638?tag=thenewyorktim-20",
+		"isbns": [{
+			"isbn10": "0374602638",
+			"isbn13": "9780374602635"
+		}, {
+			"isbn10": "0374602646",
+			"isbn13": "9780374602642"
+		}],
+		"book_details": [{
+			"title": "INTERMEZZO",
+			"description": "After the passing of their father, seemingly different brothers engage in relationships and seek ways to cope.",
+			"contributor": "by Sally Rooney",
+			"author": "Sally Rooney",
+			"contributor_note": "",
+			"price": "0.00",
+			"age_group": "",
+			"publisher": "Farrar, Straus and Giroux",
+			"primary_isbn13": "9780374602635",
+			"primary_isbn10": "0374602638"
+		}],
+		"reviews": [{
+			"book_review_link": "",
+			"first_chapter_link": "",
+			"sunday_review_link": "",
+			"article_chapter_link": ""
+		}]
+	}, {
+		"list_name": "Hardcover Fiction",
+		"display_name": "Hardcover Fiction",
+		"bestsellers_date": "2024-11-16",
+		"published_date": "2024-12-01",
+		"rank": 15,
+		"rank_last_week": 0,
+		"weeks_on_list": 1,
+		"asterisk": 0,
+		"dagger": 0,
+		"amazon_product_url": "https:\/\/www.amazon.com\/dp\/0593719204?tag=thenewyorktim-20",
+		"isbns": [{
+			"isbn10": "0593719204",
+			"isbn13": "9780593719206"
+		}, {
+			"isbn10": "0593719212",
+			"isbn13": "9780593719213"
+		}],
+		"book_details": [{
+			"title": "CLIVE CUSSLER: DESOLATION CODE",
+			"description": "The 21st book in the NUMA Files series. An A.I. system might be behind an attempt to create a new world order.",
+			"contributor": "by Graham Brown",
+			"author": "Graham Brown",
+			"contributor_note": "",
+			"price": "0.00",
+			"age_group": "",
+			"publisher": "Putnam",
+			"primary_isbn13": "9780593719206",
+			"primary_isbn10": "0593719204"
+		}],
+		"reviews": [{
+			"book_review_link": "",
+			"first_chapter_link": "",
+			"sunday_review_link": "",
+			"article_chapter_link": ""
+		}]
+	}]
+}

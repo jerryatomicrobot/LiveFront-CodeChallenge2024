@@ -1,6 +1,6 @@
 //
-//  CodeChallengeApp.swift
-//  LiveFront Code Challenge
+//  BestSellingBooksApp.swift
+//  BestSellingBooks
 //
 //  Created by Jerry Baez on 11/18/24.
 //
@@ -9,11 +9,11 @@ import SwiftUI
 
 final class AppDelegate: NSObject, UIApplicationDelegate {
 
-    fileprivate let apiManager: APIManager
+    fileprivate let apiManager: ProdAPIManager
 
     override init() {
 
-        self.apiManager = APIManager(
+        self.apiManager = ProdAPIManager(
             baseUrlString: AppConfig.baseUrl,
             apiKey: AppConfig.apiKey,
             olApiBaseUrlString: AppConfig.olAPIBaseUrl
@@ -30,7 +30,7 @@ final class AppDelegate: NSObject, UIApplicationDelegate {
 }
 
 @main
-struct CodeChallengeApp: App {
+struct BestSellingBooksApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
 
     var body: some Scene {
@@ -42,13 +42,13 @@ struct CodeChallengeApp: App {
 }
 
 struct APIManagerKey: EnvironmentKey {
-    static var defaultValue: APIManager {
-        APIManager(baseUrlString: "", apiKey: "", olApiBaseUrlString: "")
+    static var defaultValue: ProdAPIManager {
+        ProdAPIManager(baseUrlString: "", apiKey: "", olApiBaseUrlString: "")
     }
 }
 
 extension EnvironmentValues {
-    var apiManager: APIManager {
+    var apiManager: ProdAPIManager {
         get { self[APIManagerKey.self] }
         set { self[APIManagerKey.self] = newValue }
     }

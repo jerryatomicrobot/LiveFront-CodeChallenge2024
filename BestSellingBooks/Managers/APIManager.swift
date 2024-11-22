@@ -22,9 +22,17 @@ enum MIMEType: String {
     case applicationJson = "application/json"
 }
 
+protocol APIManager {
+    var jsonDecoder: JSONDecoder { get }
+
+    func getBestSellerBooks() async throws -> Result<BestSellerResponse, URLError>
+    func getThumbnailImageUrl(isbn: String) -> URL?
+    func getBookCoverImageUrl(isbn: String) -> URL?
+}
+
 // MARK: Classes
 
-class APIManager {
+class ProdAPIManager: APIManager {
 
     // MARK: - Vars and Constants
 

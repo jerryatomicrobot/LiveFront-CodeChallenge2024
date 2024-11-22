@@ -7,67 +7,80 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C40635E62CF01F2D00DB1BC9 /* CachedAsyncImage in Frameworks */ = {isa = PBXBuildFile; productRef = C40635E52CF01F2D00DB1BC9 /* CachedAsyncImage */; };
+		C406364D2CF05B7100DB1BC9 /* CachedAsyncImage in Frameworks */ = {isa = PBXBuildFile; productRef = C406364C2CF05B7100DB1BC9 /* CachedAsyncImage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C4199EC72CEBFBC300924CA4 /* PBXContainerItemProxy */ = {
+		C406360C2CF05A7400DB1BC9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C4199EAE2CEBFBC000924CA4 /* Project object */;
+			containerPortal = C40635F32CF05A7100DB1BC9 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C4199EB52CEBFBC000924CA4;
-			remoteInfo = "LiveFront Code Challenge";
+			remoteGlobalIDString = C40635FA2CF05A7100DB1BC9;
+			remoteInfo = BestSellingBooks;
 		};
-		C4199ED12CEBFBC300924CA4 /* PBXContainerItemProxy */ = {
+		C40636162CF05A7400DB1BC9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C4199EAE2CEBFBC000924CA4 /* Project object */;
+			containerPortal = C40635F32CF05A7100DB1BC9 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C4199EB52CEBFBC000924CA4;
-			remoteInfo = "LiveFront Code Challenge";
+			remoteGlobalIDString = C40635FA2CF05A7100DB1BC9;
+			remoteInfo = BestSellingBooks;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C4199EB62CEBFBC000924CA4 /* TopSellingBooks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopSellingBooks.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C4199EC62CEBFBC300924CA4 /* LiveFront Code ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LiveFront Code ChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C4199ED02CEBFBC300924CA4 /* LiveFront Code ChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LiveFront Code ChallengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C40635FB2CF05A7100DB1BC9 /* BestSellingBooks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BestSellingBooks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C406360B2CF05A7400DB1BC9 /* BestSellingBooksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BestSellingBooksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C40636152CF05A7400DB1BC9 /* BestSellingBooksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BestSellingBooksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		C406364F2CF05C8600DB1BC9 /* Exceptions for "BestSellingBooks" folder in "BestSellingBooks" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = C40635FA2CF05A7100DB1BC9 /* BestSellingBooks */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		C4199EB82CEBFBC000924CA4 /* LiveFront Code Challenge */ = {
+		C40635FD2CF05A7100DB1BC9 /* BestSellingBooks */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "LiveFront Code Challenge";
+			exceptions = (
+				C406364F2CF05C8600DB1BC9 /* Exceptions for "BestSellingBooks" folder in "BestSellingBooks" target */,
+			);
+			path = BestSellingBooks;
 			sourceTree = "<group>";
 		};
-		C4199EC92CEBFBC300924CA4 /* LiveFront Code ChallengeTests */ = {
+		C406360E2CF05A7400DB1BC9 /* BestSellingBooksTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "LiveFront Code ChallengeTests";
+			path = BestSellingBooksTests;
 			sourceTree = "<group>";
 		};
-		C4199ED32CEBFBC300924CA4 /* LiveFront Code ChallengeUITests */ = {
+		C40636182CF05A7400DB1BC9 /* BestSellingBooksUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "LiveFront Code ChallengeUITests";
+			path = BestSellingBooksUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C4199EB32CEBFBC000924CA4 /* Frameworks */ = {
+		C40635F82CF05A7100DB1BC9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C40635E62CF01F2D00DB1BC9 /* CachedAsyncImage in Frameworks */,
+				C406364D2CF05B7100DB1BC9 /* CachedAsyncImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C4199EC32CEBFBC300924CA4 /* Frameworks */ = {
+		C40636082CF05A7400DB1BC9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C4199ECD2CEBFBC300924CA4 /* Frameworks */ = {
+		C40636122CF05A7400DB1BC9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -77,22 +90,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C4199EAD2CEBFBC000924CA4 = {
+		C40635F22CF05A7100DB1BC9 = {
 			isa = PBXGroup;
 			children = (
-				C4199EB82CEBFBC000924CA4 /* LiveFront Code Challenge */,
-				C4199EC92CEBFBC300924CA4 /* LiveFront Code ChallengeTests */,
-				C4199ED32CEBFBC300924CA4 /* LiveFront Code ChallengeUITests */,
-				C4199EB72CEBFBC000924CA4 /* Products */,
+				C40635FD2CF05A7100DB1BC9 /* BestSellingBooks */,
+				C406360E2CF05A7400DB1BC9 /* BestSellingBooksTests */,
+				C40636182CF05A7400DB1BC9 /* BestSellingBooksUITests */,
+				C40635FC2CF05A7100DB1BC9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C4199EB72CEBFBC000924CA4 /* Products */ = {
+		C40635FC2CF05A7100DB1BC9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C4199EB62CEBFBC000924CA4 /* TopSellingBooks.app */,
-				C4199EC62CEBFBC300924CA4 /* LiveFront Code ChallengeTests.xctest */,
-				C4199ED02CEBFBC300924CA4 /* LiveFront Code ChallengeUITests.xctest */,
+				C40635FB2CF05A7100DB1BC9 /* BestSellingBooks.app */,
+				C406360B2CF05A7400DB1BC9 /* BestSellingBooksTests.xctest */,
+				C40636152CF05A7400DB1BC9 /* BestSellingBooksUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,138 +113,138 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C4199EB52CEBFBC000924CA4 /* LiveFront Code Challenge */ = {
+		C40635FA2CF05A7100DB1BC9 /* BestSellingBooks */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C4199EDA2CEBFBC300924CA4 /* Build configuration list for PBXNativeTarget "LiveFront Code Challenge" */;
+			buildConfigurationList = C406361F2CF05A7400DB1BC9 /* Build configuration list for PBXNativeTarget "BestSellingBooks" */;
 			buildPhases = (
-				C4199EB22CEBFBC000924CA4 /* Sources */,
-				C4199EB32CEBFBC000924CA4 /* Frameworks */,
-				C4199EB42CEBFBC000924CA4 /* Resources */,
+				C40635F72CF05A7100DB1BC9 /* Sources */,
+				C40635F82CF05A7100DB1BC9 /* Frameworks */,
+				C40635F92CF05A7100DB1BC9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				C4199EB82CEBFBC000924CA4 /* LiveFront Code Challenge */,
+				C40635FD2CF05A7100DB1BC9 /* BestSellingBooks */,
 			);
-			name = "LiveFront Code Challenge";
+			name = BestSellingBooks;
 			packageProductDependencies = (
-				C40635E52CF01F2D00DB1BC9 /* CachedAsyncImage */,
+				C406364C2CF05B7100DB1BC9 /* CachedAsyncImage */,
 			);
-			productName = "LiveFront Code Challenge";
-			productReference = C4199EB62CEBFBC000924CA4 /* TopSellingBooks.app */;
+			productName = BestSellingBooks;
+			productReference = C40635FB2CF05A7100DB1BC9 /* BestSellingBooks.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C4199EC52CEBFBC300924CA4 /* LiveFront Code ChallengeTests */ = {
+		C406360A2CF05A7400DB1BC9 /* BestSellingBooksTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C4199EDD2CEBFBC300924CA4 /* Build configuration list for PBXNativeTarget "LiveFront Code ChallengeTests" */;
+			buildConfigurationList = C40636222CF05A7400DB1BC9 /* Build configuration list for PBXNativeTarget "BestSellingBooksTests" */;
 			buildPhases = (
-				C4199EC22CEBFBC300924CA4 /* Sources */,
-				C4199EC32CEBFBC300924CA4 /* Frameworks */,
-				C4199EC42CEBFBC300924CA4 /* Resources */,
+				C40636072CF05A7400DB1BC9 /* Sources */,
+				C40636082CF05A7400DB1BC9 /* Frameworks */,
+				C40636092CF05A7400DB1BC9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C4199EC82CEBFBC300924CA4 /* PBXTargetDependency */,
+				C406360D2CF05A7400DB1BC9 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				C4199EC92CEBFBC300924CA4 /* LiveFront Code ChallengeTests */,
+				C406360E2CF05A7400DB1BC9 /* BestSellingBooksTests */,
 			);
-			name = "LiveFront Code ChallengeTests";
+			name = BestSellingBooksTests;
 			packageProductDependencies = (
 			);
-			productName = "LiveFront Code ChallengeTests";
-			productReference = C4199EC62CEBFBC300924CA4 /* LiveFront Code ChallengeTests.xctest */;
+			productName = BestSellingBooksTests;
+			productReference = C406360B2CF05A7400DB1BC9 /* BestSellingBooksTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C4199ECF2CEBFBC300924CA4 /* LiveFront Code ChallengeUITests */ = {
+		C40636142CF05A7400DB1BC9 /* BestSellingBooksUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C4199EE02CEBFBC300924CA4 /* Build configuration list for PBXNativeTarget "LiveFront Code ChallengeUITests" */;
+			buildConfigurationList = C40636252CF05A7400DB1BC9 /* Build configuration list for PBXNativeTarget "BestSellingBooksUITests" */;
 			buildPhases = (
-				C4199ECC2CEBFBC300924CA4 /* Sources */,
-				C4199ECD2CEBFBC300924CA4 /* Frameworks */,
-				C4199ECE2CEBFBC300924CA4 /* Resources */,
+				C40636112CF05A7400DB1BC9 /* Sources */,
+				C40636122CF05A7400DB1BC9 /* Frameworks */,
+				C40636132CF05A7400DB1BC9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C4199ED22CEBFBC300924CA4 /* PBXTargetDependency */,
+				C40636172CF05A7400DB1BC9 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				C4199ED32CEBFBC300924CA4 /* LiveFront Code ChallengeUITests */,
+				C40636182CF05A7400DB1BC9 /* BestSellingBooksUITests */,
 			);
-			name = "LiveFront Code ChallengeUITests";
+			name = BestSellingBooksUITests;
 			packageProductDependencies = (
 			);
-			productName = "LiveFront Code ChallengeUITests";
-			productReference = C4199ED02CEBFBC300924CA4 /* LiveFront Code ChallengeUITests.xctest */;
+			productName = BestSellingBooksUITests;
+			productReference = C40636152CF05A7400DB1BC9 /* BestSellingBooksUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C4199EAE2CEBFBC000924CA4 /* Project object */ = {
+		C40635F32CF05A7100DB1BC9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1610;
 				LastUpgradeCheck = 1610;
 				TargetAttributes = {
-					C4199EB52CEBFBC000924CA4 = {
+					C40635FA2CF05A7100DB1BC9 = {
 						CreatedOnToolsVersion = 16.1;
 					};
-					C4199EC52CEBFBC300924CA4 = {
+					C406360A2CF05A7400DB1BC9 = {
 						CreatedOnToolsVersion = 16.1;
-						TestTargetID = C4199EB52CEBFBC000924CA4;
+						TestTargetID = C40635FA2CF05A7100DB1BC9;
 					};
-					C4199ECF2CEBFBC300924CA4 = {
+					C40636142CF05A7400DB1BC9 = {
 						CreatedOnToolsVersion = 16.1;
-						TestTargetID = C4199EB52CEBFBC000924CA4;
+						TestTargetID = C40635FA2CF05A7100DB1BC9;
 					};
 				};
 			};
-			buildConfigurationList = C4199EB12CEBFBC000924CA4 /* Build configuration list for PBXProject "LiveFront Code Challenge" */;
+			buildConfigurationList = C40635F62CF05A7100DB1BC9 /* Build configuration list for PBXProject "BestSellingBooks" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = C4199EAD2CEBFBC000924CA4;
+			mainGroup = C40635F22CF05A7100DB1BC9;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				C40635E42CF01F2D00DB1BC9 /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */,
+				C406364B2CF05B7100DB1BC9 /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */,
 			);
 			preferredProjectObjectVersion = 77;
-			productRefGroup = C4199EB72CEBFBC000924CA4 /* Products */;
+			productRefGroup = C40635FC2CF05A7100DB1BC9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C4199EB52CEBFBC000924CA4 /* LiveFront Code Challenge */,
-				C4199EC52CEBFBC300924CA4 /* LiveFront Code ChallengeTests */,
-				C4199ECF2CEBFBC300924CA4 /* LiveFront Code ChallengeUITests */,
+				C40635FA2CF05A7100DB1BC9 /* BestSellingBooks */,
+				C406360A2CF05A7400DB1BC9 /* BestSellingBooksTests */,
+				C40636142CF05A7400DB1BC9 /* BestSellingBooksUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C4199EB42CEBFBC000924CA4 /* Resources */ = {
+		C40635F92CF05A7100DB1BC9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C4199EC42CEBFBC300924CA4 /* Resources */ = {
+		C40636092CF05A7400DB1BC9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C4199ECE2CEBFBC300924CA4 /* Resources */ = {
+		C40636132CF05A7400DB1BC9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -241,21 +254,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C4199EB22CEBFBC000924CA4 /* Sources */ = {
+		C40635F72CF05A7100DB1BC9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C4199EC22CEBFBC300924CA4 /* Sources */ = {
+		C40636072CF05A7400DB1BC9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C4199ECC2CEBFBC300924CA4 /* Sources */ = {
+		C40636112CF05A7400DB1BC9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -265,22 +278,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C4199EC82CEBFBC300924CA4 /* PBXTargetDependency */ = {
+		C406360D2CF05A7400DB1BC9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C4199EB52CEBFBC000924CA4 /* LiveFront Code Challenge */;
-			targetProxy = C4199EC72CEBFBC300924CA4 /* PBXContainerItemProxy */;
+			target = C40635FA2CF05A7100DB1BC9 /* BestSellingBooks */;
+			targetProxy = C406360C2CF05A7400DB1BC9 /* PBXContainerItemProxy */;
 		};
-		C4199ED22CEBFBC300924CA4 /* PBXTargetDependency */ = {
+		C40636172CF05A7400DB1BC9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C4199EB52CEBFBC000924CA4 /* LiveFront Code Challenge */;
-			targetProxy = C4199ED12CEBFBC300924CA4 /* PBXContainerItemProxy */;
+			target = C40635FA2CF05A7100DB1BC9 /* BestSellingBooks */;
+			targetProxy = C40636162CF05A7400DB1BC9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		C4199ED82CEBFBC300924CA4 /* Debug */ = {
+		C406361D2CF05A7400DB1BC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReferenceAnchor = C4199EB82CEBFBC000924CA4 /* LiveFront Code Challenge */;
+			baseConfigurationReferenceAnchor = C40635FD2CF05A7100DB1BC9 /* BestSellingBooks */;
 			baseConfigurationReferenceRelativePath = Config/Config.xcconfig;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -343,9 +356,9 @@
 			};
 			name = Debug;
 		};
-		C4199ED92CEBFBC300924CA4 /* Release */ = {
+		C406361E2CF05A7400DB1BC9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReferenceAnchor = C4199EB82CEBFBC000924CA4 /* LiveFront Code Challenge */;
+			baseConfigurationReferenceAnchor = C40635FD2CF05A7100DB1BC9 /* BestSellingBooks */;
 			baseConfigurationReferenceRelativePath = Config/Config.xcconfig;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -401,19 +414,20 @@
 			};
 			name = Release;
 		};
-		C4199EDB2CEBFBC300924CA4 /* Debug */ = {
+		C40636202CF05A7400DB1BC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReferenceAnchor = C4199EB82CEBFBC000924CA4 /* LiveFront Code Challenge */;
+			baseConfigurationReferenceAnchor = C40635FD2CF05A7100DB1BC9 /* BestSellingBooks */;
 			baseConfigurationReferenceRelativePath = Config/Config.xcconfig;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"LiveFront Code Challenge/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"BestSellingBooks/Preview Content\"";
+				DEVELOPMENT_TEAM = U7Z8U2DQRD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "LiveFront-Code-Challenge-Info.plist";
+				INFOPLIST_FILE = BestSellingBooks/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -424,27 +438,28 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jerrybaez.LiveFront-Code-Challenge";
-				PRODUCT_NAME = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.atomicrobot.BestSellingBooks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		C4199EDC2CEBFBC300924CA4 /* Release */ = {
+		C40636212CF05A7400DB1BC9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReferenceAnchor = C4199EB82CEBFBC000924CA4 /* LiveFront Code Challenge */;
+			baseConfigurationReferenceAnchor = C40635FD2CF05A7100DB1BC9 /* BestSellingBooks */;
 			baseConfigurationReferenceRelativePath = Config/Config.xcconfig;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"LiveFront Code Challenge/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"BestSellingBooks/Preview Content\"";
+				DEVELOPMENT_TEAM = U7Z8U2DQRD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "LiveFront-Code-Challenge-Info.plist";
+				INFOPLIST_FILE = BestSellingBooks/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -455,117 +470,123 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jerrybaez.LiveFront-Code-Challenge";
-				PRODUCT_NAME = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.atomicrobot.BestSellingBooks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		C4199EDE2CEBFBC300924CA4 /* Debug */ = {
+		C40636232CF05A7400DB1BC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U7Z8U2DQRD;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.outsidesource.LiveFront-Code-ChallengeTests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.atomicrobot.BestSellingBooksTests;
+				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiveFront Code Challenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LiveFront Code Challenge";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BestSellingBooks.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BestSellingBooks";
 			};
 			name = Debug;
 		};
-		C4199EDF2CEBFBC300924CA4 /* Release */ = {
+		C40636242CF05A7400DB1BC9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U7Z8U2DQRD;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.outsidesource.LiveFront-Code-ChallengeTests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.atomicrobot.BestSellingBooksTests;
+				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiveFront Code Challenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LiveFront Code Challenge";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BestSellingBooks.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BestSellingBooks";
 			};
 			name = Release;
 		};
-		C4199EE12CEBFBC300924CA4 /* Debug */ = {
+		C40636262CF05A7400DB1BC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U7Z8U2DQRD;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.outsidesource.LiveFront-Code-ChallengeUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.atomicrobot.BestSellingBooksUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "LiveFront Code Challenge";
+				TEST_TARGET_NAME = BestSellingBooks;
 			};
 			name = Debug;
 		};
-		C4199EE22CEBFBC300924CA4 /* Release */ = {
+		C40636272CF05A7400DB1BC9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U7Z8U2DQRD;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.outsidesource.LiveFront-Code-ChallengeUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.atomicrobot.BestSellingBooksUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "LiveFront Code Challenge";
+				TEST_TARGET_NAME = BestSellingBooks;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C4199EB12CEBFBC000924CA4 /* Build configuration list for PBXProject "LiveFront Code Challenge" */ = {
+		C40635F62CF05A7100DB1BC9 /* Build configuration list for PBXProject "BestSellingBooks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C4199ED82CEBFBC300924CA4 /* Debug */,
-				C4199ED92CEBFBC300924CA4 /* Release */,
+				C406361D2CF05A7400DB1BC9 /* Debug */,
+				C406361E2CF05A7400DB1BC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C4199EDA2CEBFBC300924CA4 /* Build configuration list for PBXNativeTarget "LiveFront Code Challenge" */ = {
+		C406361F2CF05A7400DB1BC9 /* Build configuration list for PBXNativeTarget "BestSellingBooks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C4199EDB2CEBFBC300924CA4 /* Debug */,
-				C4199EDC2CEBFBC300924CA4 /* Release */,
+				C40636202CF05A7400DB1BC9 /* Debug */,
+				C40636212CF05A7400DB1BC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C4199EDD2CEBFBC300924CA4 /* Build configuration list for PBXNativeTarget "LiveFront Code ChallengeTests" */ = {
+		C40636222CF05A7400DB1BC9 /* Build configuration list for PBXNativeTarget "BestSellingBooksTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C4199EDE2CEBFBC300924CA4 /* Debug */,
-				C4199EDF2CEBFBC300924CA4 /* Release */,
+				C40636232CF05A7400DB1BC9 /* Debug */,
+				C40636242CF05A7400DB1BC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C4199EE02CEBFBC300924CA4 /* Build configuration list for PBXNativeTarget "LiveFront Code ChallengeUITests" */ = {
+		C40636252CF05A7400DB1BC9 /* Build configuration list for PBXNativeTarget "BestSellingBooksUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C4199EE12CEBFBC300924CA4 /* Debug */,
-				C4199EE22CEBFBC300924CA4 /* Release */,
+				C40636262CF05A7400DB1BC9 /* Debug */,
+				C40636272CF05A7400DB1BC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -573,9 +594,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		C40635E42CF01F2D00DB1BC9 /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */ = {
+		C406364B2CF05B7100DB1BC9 /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/lorenzofiamingo/swiftui-cached-async-image.git";
+			repositoryURL = "https://github.com/lorenzofiamingo/swiftui-cached-async-image";
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 2.1.1;
@@ -584,12 +605,12 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		C40635E52CF01F2D00DB1BC9 /* CachedAsyncImage */ = {
+		C406364C2CF05B7100DB1BC9 /* CachedAsyncImage */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = C40635E42CF01F2D00DB1BC9 /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */;
+			package = C406364B2CF05B7100DB1BC9 /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */;
 			productName = CachedAsyncImage;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = C4199EAE2CEBFBC000924CA4 /* Project object */;
+	rootObject = C40635F32CF05A7100DB1BC9 /* Project object */;
 }

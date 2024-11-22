@@ -8,11 +8,6 @@
 // Configuration settings file format documentation can be found at:
 // https://help.apple.com/xcode/#/dev745c5c974
 
-// App Settings
-PRODUCT_NAME = TopSellingBooks
-PRODUCT_BUNDLE_IDENTIFIER = com.jerrybaez.LiveFront-Code-Challenge
-PRODUCT_MODULE_NAME = LiveFront_Code_Challenge
-
 // User Defined
 
 // NY Times Books API:

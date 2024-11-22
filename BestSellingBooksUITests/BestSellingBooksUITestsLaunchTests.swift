@@ -1,13 +1,13 @@
 //
-//  LiveFront_Code_ChallengeUITestsLaunchTests.swift
-//  LiveFront Code ChallengeUITests
+//  BestSellingBooksUITestsLaunchTests.swift
+//  BestSellingBooksUITests
 //
-//  Created by Jerry Baez on 11/18/24.
+//  Created by Jerry Baez on 11/22/24.
 //
 
 import XCTest
 
-final class LiveFront_Code_ChallengeUITestsLaunchTests: XCTestCase {
+final class BestSellingBooksUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
