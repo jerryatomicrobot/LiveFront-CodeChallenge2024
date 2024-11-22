@@ -24,7 +24,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C4199EB62CEBFBC000924CA4 /* Top10Books.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Top10Books.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4199EB62CEBFBC000924CA4 /* TopSellingBooks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopSellingBooks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4199EC62CEBFBC300924CA4 /* LiveFront Code ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LiveFront Code ChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4199ED02CEBFBC300924CA4 /* LiveFront Code ChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LiveFront Code ChallengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -85,7 +85,7 @@
 		C4199EB72CEBFBC000924CA4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C4199EB62CEBFBC000924CA4 /* Top10Books.app */,
+				C4199EB62CEBFBC000924CA4 /* TopSellingBooks.app */,
 				C4199EC62CEBFBC300924CA4 /* LiveFront Code ChallengeTests.xctest */,
 				C4199ED02CEBFBC300924CA4 /* LiveFront Code ChallengeUITests.xctest */,
 			);
@@ -114,7 +114,7 @@
 			packageProductDependencies = (
 			);
 			productName = "LiveFront Code Challenge";
-			productReference = C4199EB62CEBFBC000924CA4 /* Top10Books.app */;
+			productReference = C4199EB62CEBFBC000924CA4 /* TopSellingBooks.app */;
 			productType = "com.apple.product-type.application";
 		};
 		C4199EC52CEBFBC300924CA4 /* LiveFront Code ChallengeTests */ = {
