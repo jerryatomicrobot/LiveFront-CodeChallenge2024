@@ -45,8 +45,34 @@ struct BestSellerBook: Codable, Identifiable, Hashable {
     /// A date object that represents when this book became a best seller
     var bestSellersDate: Date? { self.getDateFromString(self.bestSellersDateString) }
 
+    /// A `bestSellersDate` string in the format expected at the `DetailsView`
+    var formattedBestSellerDateString: String {
+        guard let bestSellersDate else { return "" }
+
+        return bookDateFormatter.string(from: bestSellersDate)
+    }
+
+    /// A date object that represents when this book was released
+    var publishedDate: Date? { self.getDateFromString(self.publishedDateString) }
+    
+    /// A `publishedDate` string in the format expected at the `DetailsView`
+    var formattedPublishedDateString: String {
+        guard let publishedDate else { return "" }
+
+        return bookDateFormatter.string(from: publishedDate)
+    }
+
     /// An URL object where this book can be seen in Amazon.com for purchase
     var amazonProductUrl: URL? { URL(string: self.amazonProductUrlString) }
+    
+    /// Returns a `DateFormatter` instance that has the correct date format for the book-related dates to be displayed on the `DetailsView`
+    private var bookDateFormatter: DateFormatter {
+        let dateFormatter = DateFormatter()
+
+        dateFormatter.dateStyle = .medium
+
+        return dateFormatter
+    }
 
     // MARK: Utility Methods
 
