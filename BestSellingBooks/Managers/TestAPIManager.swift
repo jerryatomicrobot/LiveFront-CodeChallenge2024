@@ -8,8 +8,8 @@
 import Foundation
 
 class TestAPIManager: APIManager {
-    let testThumbnailUrlString = "https://covers.openlibrary.org/b/isbn/1538757907-S.jpg"
-    let testBookCoverUrlString = "https://covers.openlibrary.org/b/isbn/1538757907-M.jpg"
+    static var testThumbnailUrlString = "https://covers.openlibrary.org/b/isbn/1538757907-S.jpg"
+    static var testBookCoverUrlString = "https://covers.openlibrary.org/b/isbn/1538757907-M.jpg"
 
     var jsonDecoder: JSONDecoder = {
         let decoder = JSONDecoder()
@@ -26,10 +26,10 @@ class TestAPIManager: APIManager {
     }
     
     func getThumbnailImageUrl(isbn: String) -> URL? {
-        URL(string: testThumbnailUrlString)
+        URL(string: TestAPIManager.testThumbnailUrlString)
     }
     
     func getBookCoverImageUrl(isbn: String) -> URL? {
-        URL(string: testBookCoverUrlString)
+        URL(string: TestAPIManager.testBookCoverUrlString)
     }
 }
