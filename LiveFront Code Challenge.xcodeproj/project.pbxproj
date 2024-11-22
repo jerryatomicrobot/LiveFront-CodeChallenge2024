@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C40635E62CF01F2D00DB1BC9 /* CachedAsyncImage in Frameworks */ = {isa = PBXBuildFile; productRef = C40635E52CF01F2D00DB1BC9 /* CachedAsyncImage */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		C4199EC72CEBFBC300924CA4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C40635E62CF01F2D00DB1BC9 /* CachedAsyncImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +117,7 @@
 			);
 			name = "LiveFront Code Challenge";
 			packageProductDependencies = (
+				C40635E52CF01F2D00DB1BC9 /* CachedAsyncImage */,
 			);
 			productName = "LiveFront Code Challenge";
 			productReference = C4199EB62CEBFBC000924CA4 /* TopSellingBooks.app */;
@@ -195,6 +201,9 @@
 			);
 			mainGroup = C4199EAD2CEBFBC000924CA4;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				C40635E42CF01F2D00DB1BC9 /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = C4199EB72CEBFBC000924CA4 /* Products */;
 			projectDirPath = "";
@@ -562,6 +571,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C40635E42CF01F2D00DB1BC9 /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lorenzofiamingo/swiftui-cached-async-image.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C40635E52CF01F2D00DB1BC9 /* CachedAsyncImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C40635E42CF01F2D00DB1BC9 /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */;
+			productName = CachedAsyncImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C4199EAE2CEBFBC000924CA4 /* Project object */;
 }
